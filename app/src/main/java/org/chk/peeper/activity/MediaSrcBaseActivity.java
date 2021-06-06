@@ -1,4 +1,4 @@
-package org.chk.peeper;
+package org.chk.peeper.activity;
 
 import android.Manifest;
 import android.content.Intent;
@@ -7,17 +7,13 @@ import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Build;
 import android.view.View;
-import android.widget.MediaController;
-import android.widget.Toast;
-import android.widget.VideoView;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import lombok.Data;
+import org.chk.peeper.R;
 import org.chk.peeper.adapter.SongViewAdapter;
 import org.chk.peeper.dto.MediaItem;
 import org.chk.peeper.utils.MediaUtil;

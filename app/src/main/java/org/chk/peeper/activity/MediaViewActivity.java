@@ -1,4 +1,4 @@
-package org.chk.peeper;
+package org.chk.peeper.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,6 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.widget.MediaController;
 import android.widget.VideoView;
+import org.chk.peeper.R;
 
 public class MediaViewActivity extends Activity {
 

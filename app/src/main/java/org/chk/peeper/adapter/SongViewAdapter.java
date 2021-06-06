@@ -60,7 +60,7 @@ public class SongViewAdapter extends RecyclerView.Adapter<SongViewAdapter.ViewHo
 
         ViewHolder(View itemView) {
             super(itemView);
-            songName = itemView.findViewById(R.id.name);
+            songName = itemView.findViewById(R.id.stationname);
             songDuration = itemView.findViewById(R.id.duration);
             songSize = itemView.findViewById(R.id.size);
             songArtist = itemView.findViewById(R.id.artist);

@@ -1,10 +1,10 @@
-package org.chk.peeper;
+package org.chk.peeper.activity;
 
 import android.app.SearchManager;
 import android.content.Intent;
 import android.net.Uri;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import org.chk.peeper.R;
 import org.chk.peeper.utils.MediaUtil;
 
 public class SearchActivity extends MediaSrcBaseActivity{

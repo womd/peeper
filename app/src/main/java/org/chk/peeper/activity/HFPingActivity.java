@@ -1,4 +1,4 @@
-package org.chk.peeper;
+package org.chk.peeper.activity;
 
 import android.media.AudioFormat;
 import android.media.AudioManager;
@@ -14,6 +14,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import com.google.android.material.textfield.TextInputEditText;
+import org.chk.peeper.R;
 
 public class HFPingActivity extends AppCompatActivity {
 

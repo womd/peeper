@@ -1,12 +1,12 @@
-package org.chk.peeper;
+package org.chk.peeper.activity;
 
 import android.app.SearchManager;
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.widget.SearchView;
+import org.chk.peeper.R;
 import org.chk.peeper.utils.MediaUtil;
 
 

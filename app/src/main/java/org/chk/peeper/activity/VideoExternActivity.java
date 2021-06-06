@@ -1,16 +1,17 @@
-package org.chk.peeper;
+package org.chk.peeper.activity;
 
 import android.os.Bundle;
+import org.chk.peeper.R;
 import org.chk.peeper.utils.MediaUtil;
 
 
-public class VideoInternActivity extends MediaSrcBaseActivity {
+public class VideoExternActivity extends MediaSrcBaseActivity {
 
-    public VideoInternActivity() {
+    public VideoExternActivity() {
        super.parentActivity = this;
        super.mediaUtil =new MediaUtil(this);
        super.mediaType = "video";
-       super.mediaLocation = "internal";
+       super.mediaLocation = "external";
     }
 
 

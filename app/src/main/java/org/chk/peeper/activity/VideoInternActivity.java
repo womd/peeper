@@ -1,15 +1,16 @@
-package org.chk.peeper;
+package org.chk.peeper.activity;
 
 import android.os.Bundle;
+import org.chk.peeper.R;
 import org.chk.peeper.utils.MediaUtil;
 
 
-public class AudioInternActivity extends MediaSrcBaseActivity {
+public class VideoInternActivity extends MediaSrcBaseActivity {
 
-    public AudioInternActivity() {
+    public VideoInternActivity() {
        super.parentActivity = this;
        super.mediaUtil =new MediaUtil(this);
-       super.mediaType = "audio";
+       super.mediaType = "video";
        super.mediaLocation = "internal";
     }
 
@@ -19,6 +20,7 @@ public class AudioInternActivity extends MediaSrcBaseActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_player);
+
         super.checkPermissionAndLoadMedia();
         super.setupListView();
 

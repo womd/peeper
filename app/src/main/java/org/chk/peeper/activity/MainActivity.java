@@ -1,9 +1,10 @@
-package org.chk.peeper;
+package org.chk.peeper.activity;
 
 import android.content.Intent;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import org.chk.peeper.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -38,6 +39,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void hfPingActivity(View view){
         Intent intent = new Intent(this, HFPingActivity.class);
+        startActivity(intent);
+    }
+
+    public void weatherStationActivity(View view){
+        Intent intent = new Intent(this, WeatherStationActivity.class);
         startActivity(intent);
     }
 
