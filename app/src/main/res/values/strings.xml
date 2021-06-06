@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Peeper</string>
+    <string name="identifier_message">Enter a name</string>
+    <string name="button_sender">work as sender</string>
+    <string name="button_receiver">work as receiver</string>
+    <string name="infoText_workAsSender">working as sender</string>
+    <string name="infoText_workAsReceiver">working as receiver</string>
+    <string name="app_label">app_label</string>
+    <string name="search_hint">search content of your phone</string>
+    <string name="search_title">search_title</string>
+    <string name="Frequency">Frequency</string>
+    <string name="Samples">Samples</string>
+</resources>
